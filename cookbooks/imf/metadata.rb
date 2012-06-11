@@ -18,16 +18,19 @@ attribute "imf/favorite/food",
   :display_name => "favorite food",
   :required => "optional",
   :default => 'steak',
+  :category => 'favorites',
   :recipes => ["imf::default"]
 
 attribute "imf/favorite/drink",
   :display_name => "favorite drink",
   :required => "optional",
   :default => 'rose cote de provence',
+  :category => 'favorites',
   :recipes => ["imf::default"]
 
 attribute "imf/favorite/hobby",
   :display_name => "favorite hobby",
   :required => "optional",
   :default => 'cooking',
+  :category => 'favorites',
   :recipes => ["imf::default"]
