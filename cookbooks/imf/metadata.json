@@ -8,6 +8,7 @@
   "platforms": {
   },
   "dependencies": {
+    "rs_utils": ">= 0.0.0"
   },
   "recommendations": {
   },
@@ -24,7 +25,7 @@
   "groupings": {
   },
   "recipes": {
-    "imf::default": "default recipe"
+    "imf::default": "Prints my first name and several of my favorite things as output."
   },
   "version": "0.0.1"
 }
