@@ -21,6 +21,18 @@
   "replacing": {
   },
   "attributes": {
+    "imf/first_name": {
+      "display_name": "first name",
+      "required": "required",
+      "recipes": [
+        "imf::default"
+      ],
+      "choice": [
+
+      ],
+      "calculated": false,
+      "type": "string"
+    }
   },
   "groupings": {
   },

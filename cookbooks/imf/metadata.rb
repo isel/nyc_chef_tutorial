@@ -8,3 +8,8 @@ version          "0.0.1"
 depends "rs_utils"
 
 recipe "imf::default","Prints my first name and several of my favorite things as output."
+
+attribute "imf/first_name",
+  :display_name => "first name",
+  :required => "required",
+  :recipes => ["imf::default"]
