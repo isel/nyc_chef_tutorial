@@ -32,6 +32,45 @@
       ],
       "calculated": false,
       "type": "string"
+    },
+    "imf/favorite/food": {
+      "display_name": "favorite food",
+      "required": "optional",
+      "default": "steak",
+      "recipes": [
+        "imf::default"
+      ],
+      "choice": [
+
+      ],
+      "calculated": false,
+      "type": "string"
+    },
+    "imf/favorite/drink": {
+      "display_name": "favorite drink",
+      "required": "optional",
+      "default": "rose cote de provence",
+      "recipes": [
+        "imf::default"
+      ],
+      "choice": [
+
+      ],
+      "calculated": false,
+      "type": "string"
+    },
+    "imf/favorite/hobby": {
+      "display_name": "favorite hobby",
+      "required": "optional",
+      "default": "cooking",
+      "recipes": [
+        "imf::default"
+      ],
+      "choice": [
+
+      ],
+      "calculated": false,
+      "type": "string"
     }
   },
   "groupings": {

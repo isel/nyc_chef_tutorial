@@ -13,3 +13,21 @@ attribute "imf/first_name",
   :display_name => "first name",
   :required => "required",
   :recipes => ["imf::default"]
+
+attribute "imf/favorite/food",
+  :display_name => "favorite food",
+  :required => "optional",
+  :default => 'steak',
+  :recipes => ["imf::default"]
+
+attribute "imf/favorite/drink",
+  :display_name => "favorite drink",
+  :required => "optional",
+  :default => 'rose cote de provence',
+  :recipes => ["imf::default"]
+
+attribute "imf/favorite/hobby",
+  :display_name => "favorite hobby",
+  :required => "optional",
+  :default => 'cooking',
+  :recipes => ["imf::default"]
