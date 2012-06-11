@@ -1,4 +1,4 @@
-set[:about_me][:first_name] = "isel"
-default[:about_me][:favorite][:food] = "steak"
-default[:about_me][:favorite][:drink] = "rose cote de provence"
-default[:about_me][:favorite][:hobby] = "cooking"
+set[:imf][:first_name] = "isel"
+default[:imf][:favorite][:food] = "steak"
+default[:imf][:favorite][:drink] = "rose cote de provence"
+default[:imf][:favorite][:hobby] = "cooking"
